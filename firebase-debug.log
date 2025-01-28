@@ -1,0 +1,123 @@
+[debug] [2025-01-21T08:22:41.265Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T08:22:41.278Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-21T08:22:41.280Z] CLI Version:   13.29.1
+[debug] [2025-01-21T08:22:41.281Z] Platform:      win32
+[debug] [2025-01-21T08:22:41.281Z] Node Version:  v22.13.0
+[debug] [2025-01-21T08:22:41.283Z] Time:          Tue Jan 21 2025 13:52:41 GMT+0530 (India Standard Time)
+[debug] [2025-01-21T08:22:41.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T08:22:41.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T08:22:41.320Z] > authorizing via signed-in user (harshitsinghal6667@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\React_Projects\protfoliyo\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-01-21T08:23:44.037Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:23:44.038Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:23:44.042Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-01-21T08:23:44.042Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"my-portfolio","name":"my-portfolio"}
+[debug] [2025-01-21T08:23:46.091Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-01-21T08:23:46.091Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-01-21T08:23:46.381Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID my-portfolio. Please try again with a unique project ID.
+[debug] [2025-01-21T08:24:08.859Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T08:24:08.867Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-21T08:24:08.869Z] CLI Version:   13.29.1
+[debug] [2025-01-21T08:24:08.869Z] Platform:      win32
+[debug] [2025-01-21T08:24:08.869Z] Node Version:  v22.13.0
+[debug] [2025-01-21T08:24:08.870Z] Time:          Tue Jan 21 2025 13:54:08 GMT+0530 (India Standard Time)
+[debug] [2025-01-21T08:24:08.871Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T08:24:08.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T08:24:08.894Z] > authorizing via signed-in user (harshitsinghal6667@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\React_Projects\protfoliyo\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-01-21T08:26:40.743Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:26:40.744Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:26:40.748Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-01-21T08:26:40.749Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio","name":"portfolio"}
+[debug] [2025-01-21T08:26:42.605Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-01-21T08:26:42.606Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-01-21T08:26:42.888Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID portfolio. Please try again with a unique project ID.
+[debug] [2025-01-21T08:26:59.375Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T08:26:59.384Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-21T08:26:59.385Z] CLI Version:   13.29.1
+[debug] [2025-01-21T08:26:59.386Z] Platform:      win32
+[debug] [2025-01-21T08:26:59.386Z] Node Version:  v22.13.0
+[debug] [2025-01-21T08:26:59.387Z] Time:          Tue Jan 21 2025 13:56:59 GMT+0530 (India Standard Time)
+[debug] [2025-01-21T08:26:59.387Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T08:26:59.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T08:26:59.411Z] > authorizing via signed-in user (harshitsinghal6667@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\React_Projects\protfoliyo\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-01-21T08:28:00.999Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:28:01.000Z] Checked if tokens are valid: true, expires at: 1737450317205
+[debug] [2025-01-21T08:28:01.004Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-01-21T08:28:01.004Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"portfolio","name":"portfolio-hs"}
+[debug] [2025-01-21T08:28:02.839Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-01-21T08:28:02.841Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-01-21T08:28:03.144Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\harsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID portfolio. Please try again with a unique project ID.
